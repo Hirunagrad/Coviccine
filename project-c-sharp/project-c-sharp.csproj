@@ -168,5 +168,14 @@
   <ItemGroup>
     <None Include="Resources\restore_hov.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_round-email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact us main.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

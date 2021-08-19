@@ -30,35 +30,28 @@ namespace project_c_sharp
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nunito ExtraBold", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(524, 108);
+            this.label1.Location = new System.Drawing.Point(393, 88);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 46);
+            this.label1.Size = new System.Drawing.Size(167, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Information";
             // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(252, 305);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 1;
-            // 
             // Information
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Information";
-            this.Size = new System.Drawing.Size(1190, 753);
+            this.Size = new System.Drawing.Size(892, 612);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -67,6 +60,5 @@ namespace project_c_sharp
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
     }
 }
