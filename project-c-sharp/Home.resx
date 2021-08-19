@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>COVID-19 vaccinations are completely safe.
+COVID-19 vaccinations work well.
+You can begin doing more once you are fully vaccinated.
+COVID-19 immunization is a less risky technique to aid in the development of protection.
+You'll be able to reconnect with friends and relatives thanks to the vaccine.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>COVID-19 is a new coronavirus strain that has never been seen in humans before. The COVID-19 virus is the source of a respiratory
+ailment outbreak that began in Wuhan, Hubei Province, China. Cases have been reported in an increasing number of nations since 
+December 2019. People over the age of 65, as well as those with underlying medical conditions such as cardiovascular disease, diabetes,
+chronic respiratory disease, and cancer, are at a higher risk of developing serious illness. So it is very important to get vaccinated.</value>
+  </data>
 </root>
