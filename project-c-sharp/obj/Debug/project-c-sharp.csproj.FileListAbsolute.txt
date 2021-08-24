@@ -97,3 +97,33 @@ C:\Users\Indika Thilakarathna\Desktop\NSBM\Year 1 Semester 2\C#\Group Project\c-
 C:\Users\Indika Thilakarathna\Desktop\NSBM\Year 1 Semester 2\C#\Group Project\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.exe
 C:\Users\Indika Thilakarathna\Desktop\NSBM\Year 1 Semester 2\C#\Group Project\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.pdb
 C:\Users\Indika Thilakarathna\Desktop\NSBM\Year 1 Semester 2\C#\Group Project\c-sharp-project-final\project-c-sharp\bin\Debug\Guna.UI.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\project-c-sharp.exe.config
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\project-c-sharp.exe
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\project-c-sharp.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Docking.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\FontAwesome.Sharp.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\Guna.UI2.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.csproj.AssemblyReference.cache
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.Form1.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.Home.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.Information.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.Phone.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.Properties.Resources.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.Vaccine.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.csproj.GenerateResource.cache
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.csproj.CoreCompileInputs.cache
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.csproj.CopyComplete
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.exe
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project-c-sharp.pdb
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.loadingscreen.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.popup.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.showdetail.resources

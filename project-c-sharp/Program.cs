@@ -19,7 +19,7 @@ namespace project_c_sharp
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new loadingscreen());
         }
 
         [System.Runtime.InteropServices.DllImport("user32.dll")]

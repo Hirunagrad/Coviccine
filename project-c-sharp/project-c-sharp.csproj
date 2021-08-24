@@ -91,14 +91,32 @@
     <Compile Include="Information.Designer.cs">
       <DependentUpon>Information.cs</DependentUpon>
     </Compile>
+    <Compile Include="loadingscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loadingscreen.Designer.cs">
+      <DependentUpon>loadingscreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phone.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Phone.Designer.cs">
       <DependentUpon>Phone.cs</DependentUpon>
     </Compile>
+    <Compile Include="popup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popup.Designer.cs">
+      <DependentUpon>popup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="showdetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showdetail.Designer.cs">
+      <DependentUpon>showdetail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vaccine.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -114,8 +132,14 @@
     <EmbeddedResource Include="Information.resx">
       <DependentUpon>Information.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="loadingscreen.resx">
+      <DependentUpon>loadingscreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phone.resx">
       <DependentUpon>Phone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popup.resx">
+      <DependentUpon>popup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,6 +151,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="showdetail.resx">
+      <DependentUpon>showdetail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vaccine.resx">
       <DependentUpon>Vaccine.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,6 +233,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconbuttonOne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first-01 1%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 99.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
