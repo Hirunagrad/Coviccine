@@ -153,6 +153,26 @@ namespace project_c_sharp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap first_01_1_1_ {
+            get {
+                object obj = ResourceManager.GetObject("first-01 1(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Group_99 {
+            get {
+                object obj = ResourceManager.GetObject("Group 99", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap homemain {
             get {
                 object obj = ResourceManager.GetObject("homemain", resourceCulture);

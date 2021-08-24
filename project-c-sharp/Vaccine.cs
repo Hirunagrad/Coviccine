@@ -39,5 +39,11 @@ namespace project_c_sharp
         {
 
         }
+
+        private void gunabutton1_Click(object sender, EventArgs e)
+        {
+            popup obj = new popup();
+            obj.Show();
+        }
     }
 }
