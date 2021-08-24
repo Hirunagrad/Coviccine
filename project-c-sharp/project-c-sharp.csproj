@@ -117,6 +117,12 @@
     <Compile Include="showdetail.Designer.cs">
       <DependentUpon>showdetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="updatedata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatedata.Designer.cs">
+      <DependentUpon>updatedata.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vaccine.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="showdetail.resx">
       <DependentUpon>showdetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatedata.resx">
+      <DependentUpon>updatedata.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vaccine.resx">
       <DependentUpon>Vaccine.cs</DependentUpon>
