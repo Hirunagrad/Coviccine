@@ -17,5 +17,12 @@ namespace project_c_sharp
         {
             InitializeComponent();
         }
+
+        private void update_Click(object sender, EventArgs e)
+        {
+            updatedata obj = new updatedata();
+            obj.Show();
+            this.Hide();
+        }
     }
 }
