@@ -128,3 +128,5 @@ F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\proj
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.popup.resources
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.showdetail.resources
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.updatedata.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.admin.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.adminpanel.resources

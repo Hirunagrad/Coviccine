@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace project_c_sharp
 {
@@ -42,8 +43,52 @@ namespace project_c_sharp
 
         private void gunabutton1_Click(object sender, EventArgs e)
         {
+            
+            
+            
+            
             popup obj = new popup();
             obj.Show();
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void std_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nic_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vaccinesType_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void age_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void batch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Vaccine_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }
