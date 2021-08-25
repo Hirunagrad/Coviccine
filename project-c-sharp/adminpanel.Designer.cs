@@ -1,7 +1,7 @@
 ﻿
 namespace project_c_sharp
 {
-    partial class adminpanel
+    partial class view
     {
         /// <summary>
         /// Required designer variable.
@@ -392,12 +392,12 @@ namespace project_c_sharp
             this.guna2Button3.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(22, 85);
+            this.guna2Button3.Location = new System.Drawing.Point(10, 91);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(75, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(96, 45);
             this.guna2Button3.TabIndex = 16;
-            this.guna2Button3.Text = "Add";
+            this.guna2Button3.Text = "View";
             // 
             // guna2Panel4
             // 
@@ -451,7 +451,7 @@ namespace project_c_sharp
             this.guna2Button4.TabIndex = 16;
             this.guna2Button4.Text = "Add";
             // 
-            // adminpanel
+            // view
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -465,7 +465,7 @@ namespace project_c_sharp
             this.Controls.Add(this.update);
             this.Controls.Add(this.delete);
             this.Controls.Add(this.label1);
-            this.Name = "adminpanel";
+            this.Name = "view";
             this.Palette = this.kryptonPalette1;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
             this.ShowIcon = false;
