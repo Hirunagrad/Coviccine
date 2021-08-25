@@ -12,9 +12,9 @@ using FontAwesome.Sharp;
 
 namespace project_c_sharp
 {
-    public partial class adminpanel : KryptonForm
+    public partial class view : KryptonForm
     {
-        public adminpanel()
+        public view()
         {
             InitializeComponent();
         }

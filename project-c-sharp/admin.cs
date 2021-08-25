@@ -50,7 +50,7 @@ namespace project_c_sharp
         
             if (uname == "admin" && pass == "admin" )
             {
-                adminpanel obj = new adminpanel();
+                view obj = new view();
                 obj.Show();
                 this.Hide();
             }
