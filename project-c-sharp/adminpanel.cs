@@ -18,5 +18,15 @@ namespace project_c_sharp
         {
             InitializeComponent();
         }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void updates_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
