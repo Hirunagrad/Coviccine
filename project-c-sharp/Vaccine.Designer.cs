@@ -44,6 +44,7 @@ namespace project_c_sharp
             this.std_id = new Guna.UI2.WinForms.Guna2TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.vaccinesType = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -342,11 +343,22 @@ namespace project_c_sharp
             this.vaccinesType.TabIndex = 25;
             this.vaccinesType.TextChanged += new System.EventHandler(this.vaccinesType_TextChanged);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(931, 183);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(46, 17);
+            this.label8.TabIndex = 26;
+            this.label8.Text = "label8";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
             // Vaccine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.vaccinesType);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.std_id);
@@ -388,5 +400,6 @@ namespace project_c_sharp
         private Guna.UI2.WinForms.Guna2TextBox std_id;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2TextBox vaccinesType;
+        private System.Windows.Forms.Label label8;
     }
 }
