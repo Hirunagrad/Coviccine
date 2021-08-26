@@ -43,10 +43,18 @@ namespace project_c_sharp
 
         private void gunabutton1_Click(object sender, EventArgs e)
         {
+            int stdid = int.Parse(std_id.Text);
+            String names = name.Text;
+            String nicn = nic.Text;
+            String vaccinesTypes = vaccinesType.Text;
+            int ages = int.Parse(age.Text);
+            String batches = batch.Text;
+
+
             
-            
-            
-            
+
+
+
             popup obj = new popup();
             obj.Show();
         }
@@ -89,6 +97,11 @@ namespace project_c_sharp
         private void Vaccine_Load(object sender, EventArgs e)
         {
            
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

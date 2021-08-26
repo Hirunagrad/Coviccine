@@ -25,9 +25,7 @@ namespace project_c_sharp
 
         private void update_Click(object sender, EventArgs e)
         {
-            showdetail obj = new showdetail();
-            obj.Show();
-            this.Hide();
+           
         }
     }
 }
