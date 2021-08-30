@@ -31,10 +31,10 @@ namespace project_c_sharp
         {
             this.components = new System.ComponentModel.Container();
             this.kryptonPalette1 = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.batch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.age = new Guna.UI2.WinForms.Guna2TextBox();
+            this.vaccine = new Guna.UI2.WinForms.Guna2TextBox();
+            this.nic = new Guna.UI2.WinForms.Guna2TextBox();
             this.name = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,7 +42,14 @@ namespace project_c_sharp
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.updatebutton = new Guna.UI2.WinForms.Guna2Button();
+            this.levelSeven = new System.Windows.Forms.Label();
+            this.levelSix = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.date = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.std_id = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.back = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // kryptonPalette1
@@ -59,117 +66,121 @@ namespace project_c_sharp
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonPalette1.FormStyles.FormMain.StateCommon.Border.Rounding = 19;
             // 
-            // guna2TextBox4
+            // batch
             // 
-            this.guna2TextBox4.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox4.BorderRadius = 20;
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.FocusedState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox4.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.HoverState.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Location = new System.Drawing.Point(441, 533);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.ShadowDecoration.Parent = this.guna2TextBox4;
-            this.guna2TextBox4.Size = new System.Drawing.Size(511, 47);
-            this.guna2TextBox4.TabIndex = 34;
+            this.batch.BackColor = System.Drawing.Color.White;
+            this.batch.BorderRadius = 20;
+            this.batch.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.batch.DefaultText = "";
+            this.batch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.batch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.batch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.batch.DisabledState.Parent = this.batch;
+            this.batch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.batch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.batch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.batch.FocusedState.Parent = this.batch;
+            this.batch.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.batch.ForeColor = System.Drawing.Color.Black;
+            this.batch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.batch.HoverState.Parent = this.batch;
+            this.batch.Location = new System.Drawing.Point(441, 524);
+            this.batch.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.batch.Name = "batch";
+            this.batch.PasswordChar = '\0';
+            this.batch.PlaceholderText = "";
+            this.batch.SelectedText = "";
+            this.batch.ShadowDecoration.Parent = this.batch;
+            this.batch.Size = new System.Drawing.Size(511, 47);
+            this.batch.TabIndex = 34;
+            this.batch.TextChanged += new System.EventHandler(this.batch_TextChanged);
             // 
-            // guna2TextBox3
+            // age
             // 
-            this.guna2TextBox3.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox3.BorderRadius = 20;
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.FocusedState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox3.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.HoverState.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Location = new System.Drawing.Point(442, 456);
-            this.guna2TextBox3.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.ShadowDecoration.Parent = this.guna2TextBox3;
-            this.guna2TextBox3.Size = new System.Drawing.Size(511, 47);
-            this.guna2TextBox3.TabIndex = 33;
+            this.age.BackColor = System.Drawing.Color.White;
+            this.age.BorderRadius = 20;
+            this.age.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.age.DefaultText = "";
+            this.age.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.age.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.age.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.age.DisabledState.Parent = this.age;
+            this.age.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.age.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.age.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.age.FocusedState.Parent = this.age;
+            this.age.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.age.ForeColor = System.Drawing.Color.Black;
+            this.age.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.age.HoverState.Parent = this.age;
+            this.age.Location = new System.Drawing.Point(442, 447);
+            this.age.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.age.Name = "age";
+            this.age.PasswordChar = '\0';
+            this.age.PlaceholderText = "";
+            this.age.SelectedText = "";
+            this.age.ShadowDecoration.Parent = this.age;
+            this.age.Size = new System.Drawing.Size(511, 47);
+            this.age.TabIndex = 33;
+            this.age.TextChanged += new System.EventHandler(this.age_TextChanged);
             // 
-            // guna2TextBox2
+            // vaccine
             // 
-            this.guna2TextBox2.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox2.BorderRadius = 20;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.FocusedState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.HoverState.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Location = new System.Drawing.Point(443, 376);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(511, 47);
-            this.guna2TextBox2.TabIndex = 32;
+            this.vaccine.BackColor = System.Drawing.Color.White;
+            this.vaccine.BorderRadius = 20;
+            this.vaccine.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.vaccine.DefaultText = "";
+            this.vaccine.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.vaccine.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.vaccine.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.vaccine.DisabledState.Parent = this.vaccine;
+            this.vaccine.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.vaccine.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.vaccine.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.vaccine.FocusedState.Parent = this.vaccine;
+            this.vaccine.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vaccine.ForeColor = System.Drawing.Color.Black;
+            this.vaccine.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.vaccine.HoverState.Parent = this.vaccine;
+            this.vaccine.Location = new System.Drawing.Point(443, 367);
+            this.vaccine.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.vaccine.Name = "vaccine";
+            this.vaccine.PasswordChar = '\0';
+            this.vaccine.PlaceholderText = "";
+            this.vaccine.SelectedText = "";
+            this.vaccine.ShadowDecoration.Parent = this.vaccine;
+            this.vaccine.Size = new System.Drawing.Size(511, 47);
+            this.vaccine.TabIndex = 32;
+            this.vaccine.TextChanged += new System.EventHandler(this.vaccine_TextChanged);
             // 
-            // guna2TextBox1
+            // nic
             // 
-            this.guna2TextBox1.BackColor = System.Drawing.Color.White;
-            this.guna2TextBox1.BorderRadius = 20;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.FocusedState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(441, 297);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Size = new System.Drawing.Size(511, 47);
-            this.guna2TextBox1.TabIndex = 31;
+            this.nic.BackColor = System.Drawing.Color.White;
+            this.nic.BorderRadius = 20;
+            this.nic.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nic.DefaultText = "";
+            this.nic.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.nic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.nic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nic.DisabledState.Parent = this.nic;
+            this.nic.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.nic.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.nic.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nic.FocusedState.Parent = this.nic;
+            this.nic.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nic.ForeColor = System.Drawing.Color.Black;
+            this.nic.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.nic.HoverState.Parent = this.nic;
+            this.nic.Location = new System.Drawing.Point(441, 288);
+            this.nic.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.nic.Name = "nic";
+            this.nic.PasswordChar = '\0';
+            this.nic.PlaceholderText = "";
+            this.nic.SelectedText = "";
+            this.nic.ShadowDecoration.Parent = this.nic;
+            this.nic.Size = new System.Drawing.Size(511, 47);
+            this.nic.TabIndex = 31;
+            this.nic.TextChanged += new System.EventHandler(this.nic_TextChanged);
             // 
             // name
             // 
@@ -189,7 +200,7 @@ namespace project_c_sharp
             this.name.ForeColor = System.Drawing.Color.Black;
             this.name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.name.HoverState.Parent = this.name;
-            this.name.Location = new System.Drawing.Point(441, 222);
+            this.name.Location = new System.Drawing.Point(441, 213);
             this.name.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.name.Name = "name";
             this.name.PasswordChar = '\0';
@@ -198,13 +209,14 @@ namespace project_c_sharp
             this.name.ShadowDecoration.Parent = this.name;
             this.name.Size = new System.Drawing.Size(511, 47);
             this.name.TabIndex = 30;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Nunito ExtraBold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(112)))), ((int)(((byte)(248)))));
-            this.label6.Location = new System.Drawing.Point(339, 62);
+            this.label6.Location = new System.Drawing.Point(327, 15);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(653, 83);
@@ -216,7 +228,7 @@ namespace project_c_sharp
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(317, 540);
+            this.label5.Location = new System.Drawing.Point(317, 531);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 37);
@@ -228,7 +240,7 @@ namespace project_c_sharp
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(317, 461);
+            this.label4.Location = new System.Drawing.Point(317, 452);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 37);
@@ -240,7 +252,7 @@ namespace project_c_sharp
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(317, 380);
+            this.label3.Location = new System.Drawing.Point(317, 371);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 37);
@@ -252,7 +264,7 @@ namespace project_c_sharp
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(317, 303);
+            this.label2.Location = new System.Drawing.Point(317, 294);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 37);
@@ -264,35 +276,156 @@ namespace project_c_sharp
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(316, 223);
+            this.label1.Location = new System.Drawing.Point(316, 214);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(91, 37);
             this.label1.TabIndex = 23;
             this.label1.Text = "Name";
             // 
-            // guna2Button5
+            // updatebutton
             // 
-            this.guna2Button5.BackColor = System.Drawing.Color.White;
-            this.guna2Button5.BorderRadius = 15;
-            this.guna2Button5.CheckedState.Parent = this.guna2Button5;
-            this.guna2Button5.CustomImages.Parent = this.guna2Button5;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.DisabledState.Parent = this.guna2Button5;
-            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(0)))));
-            this.guna2Button5.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Location = new System.Drawing.Point(443, 611);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(171, 53);
-            this.guna2Button5.TabIndex = 39;
-            this.guna2Button5.Text = "Update";
+            this.updatebutton.BackColor = System.Drawing.Color.White;
+            this.updatebutton.BorderRadius = 15;
+            this.updatebutton.CheckedState.Parent = this.updatebutton;
+            this.updatebutton.CustomImages.Parent = this.updatebutton;
+            this.updatebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.updatebutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.updatebutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.updatebutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.updatebutton.DisabledState.Parent = this.updatebutton;
+            this.updatebutton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(0)))));
+            this.updatebutton.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updatebutton.ForeColor = System.Drawing.Color.White;
+            this.updatebutton.HoverState.Parent = this.updatebutton;
+            this.updatebutton.Location = new System.Drawing.Point(454, 674);
+            this.updatebutton.Margin = new System.Windows.Forms.Padding(4);
+            this.updatebutton.Name = "updatebutton";
+            this.updatebutton.ShadowDecoration.Parent = this.updatebutton;
+            this.updatebutton.Size = new System.Drawing.Size(171, 53);
+            this.updatebutton.TabIndex = 39;
+            this.updatebutton.Text = "Update";
+            this.updatebutton.Click += new System.EventHandler(this.updatebutton_Click);
+            // 
+            // levelSeven
+            // 
+            this.levelSeven.AutoSize = true;
+            this.levelSeven.ForeColor = System.Drawing.Color.Red;
+            this.levelSeven.Location = new System.Drawing.Point(470, 674);
+            this.levelSeven.Name = "levelSeven";
+            this.levelSeven.Size = new System.Drawing.Size(0, 17);
+            this.levelSeven.TabIndex = 43;
+            // 
+            // levelSix
+            // 
+            this.levelSix.AutoSize = true;
+            this.levelSix.ForeColor = System.Drawing.Color.Red;
+            this.levelSix.Location = new System.Drawing.Point(470, 573);
+            this.levelSix.Name = "levelSix";
+            this.levelSix.Size = new System.Drawing.Size(0, 17);
+            this.levelSix.TabIndex = 42;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(319, 593);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(79, 37);
+            this.label9.TabIndex = 41;
+            this.label9.Text = "Date";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // date
+            // 
+            this.date.BorderRadius = 19;
+            this.date.CheckedState.Parent = this.date;
+            this.date.CustomFormat = "yyyy-MM-dd";
+            this.date.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.date.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.date.ForeColor = System.Drawing.Color.Black;
+            this.date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.date.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.date.HoverState.ForeColor = System.Drawing.Color.Black;
+            this.date.HoverState.Parent = this.date;
+            this.date.Location = new System.Drawing.Point(454, 593);
+            this.date.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.date.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.date.Name = "date";
+            this.date.ShadowDecoration.Parent = this.date;
+            this.date.Size = new System.Drawing.Size(287, 46);
+            this.date.TabIndex = 40;
+            this.date.Value = new System.DateTime(2021, 8, 26, 19, 24, 30, 395);
+            this.date.ValueChanged += new System.EventHandler(this.date_ValueChanged);
+            // 
+            // std_id
+            // 
+            this.std_id.BackColor = System.Drawing.Color.White;
+            this.std_id.BorderRadius = 20;
+            this.std_id.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.std_id.DefaultText = "";
+            this.std_id.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.std_id.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.std_id.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.std_id.DisabledState.Parent = this.std_id;
+            this.std_id.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.std_id.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.std_id.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.std_id.FocusedState.Parent = this.std_id;
+            this.std_id.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.std_id.ForeColor = System.Drawing.Color.Black;
+            this.std_id.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.std_id.HoverState.Parent = this.std_id;
+            this.std_id.Location = new System.Drawing.Point(441, 143);
+            this.std_id.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.std_id.Name = "std_id";
+            this.std_id.PasswordChar = '\0';
+            this.std_id.PlaceholderText = "";
+            this.std_id.SelectedText = "";
+            this.std_id.ShadowDecoration.Parent = this.std_id;
+            this.std_id.Size = new System.Drawing.Size(511, 47);
+            this.std_id.TabIndex = 44;
+            this.std_id.TextChanged += new System.EventHandler(this.std_id_TextChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Nunito ExtraBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(318, 150);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 37);
+            this.label7.TabIndex = 45;
+            this.label7.Text = "std_id";
+            // 
+            // back
+            // 
+            this.back.BackColor = System.Drawing.Color.White;
+            this.back.BorderRadius = 15;
+            this.back.CheckedState.Parent = this.back;
+            this.back.CustomImages.Parent = this.back;
+            this.back.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.back.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.back.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.back.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.back.DisabledState.Parent = this.back;
+            this.back.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(0)))));
+            this.back.Font = new System.Drawing.Font("Nunito", 13F, System.Drawing.FontStyle.Bold);
+            this.back.ForeColor = System.Drawing.Color.White;
+            this.back.HoverState.Parent = this.back;
+            this.back.Image = global::project_c_sharp.Properties.Resources.Group_98;
+            this.back.ImageSize = new System.Drawing.Size(30, 30);
+            this.back.Location = new System.Drawing.Point(1052, 36);
+            this.back.Margin = new System.Windows.Forms.Padding(4);
+            this.back.Name = "back";
+            this.back.ShadowDecoration.Parent = this.back;
+            this.back.Size = new System.Drawing.Size(177, 51);
+            this.back.TabIndex = 46;
+            this.back.Text = "  back";
+            this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // updatedata
             // 
@@ -300,11 +433,18 @@ namespace project_c_sharp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1282, 753);
-            this.Controls.Add(this.guna2Button5);
-            this.Controls.Add(this.guna2TextBox4);
-            this.Controls.Add(this.guna2TextBox3);
-            this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.back);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.std_id);
+            this.Controls.Add(this.levelSeven);
+            this.Controls.Add(this.levelSix);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.date);
+            this.Controls.Add(this.updatebutton);
+            this.Controls.Add(this.batch);
+            this.Controls.Add(this.age);
+            this.Controls.Add(this.vaccine);
+            this.Controls.Add(this.nic);
             this.Controls.Add(this.name);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -317,6 +457,7 @@ namespace project_c_sharp
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.updatedata_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,10 +466,10 @@ namespace project_c_sharp
         #endregion
 
         private ComponentFactory.Krypton.Toolkit.KryptonPalette kryptonPalette1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox batch;
+        private Guna.UI2.WinForms.Guna2TextBox age;
+        private Guna.UI2.WinForms.Guna2TextBox vaccine;
+        private Guna.UI2.WinForms.Guna2TextBox nic;
         private Guna.UI2.WinForms.Guna2TextBox name;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -336,6 +477,13 @@ namespace project_c_sharp
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button updatebutton;
+        private System.Windows.Forms.Label levelSeven;
+        private System.Windows.Forms.Label levelSix;
+        private System.Windows.Forms.Label label9;
+        private Guna.UI2.WinForms.Guna2DateTimePicker date;
+        private Guna.UI2.WinForms.Guna2TextBox std_id;
+        private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2Button back;
     }
 }

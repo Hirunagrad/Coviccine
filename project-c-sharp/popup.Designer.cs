@@ -146,7 +146,7 @@ namespace project_c_sharp
             this.Palette = this.kryptonPalette1;
             this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Custom;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "popup";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.popup_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

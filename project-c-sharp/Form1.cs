@@ -121,17 +121,10 @@ namespace project_c_sharp
 
         private void iconButton5_Click(object sender, EventArgs e)
         {
-            ActiveButton(sender);
-            if (!mainpanel.Controls.Contains(admin.Instance))
-            {
-                mainpanel.Controls.Add(admin.Instance);
-                admin.Instance.Dock = DockStyle.Fill;
-                admin.Instance.BringToFront();
-            }
-            else
-            {
-                admin.Instance.BringToFront();
-            }
+
+            adminnew objadmin = new adminnew();
+            objadmin.Show();
+           
         }
     }
 }
