@@ -130,3 +130,4 @@ F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\proj
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.view.resources
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.delete.resources
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.adminnew.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.doctor.resources
