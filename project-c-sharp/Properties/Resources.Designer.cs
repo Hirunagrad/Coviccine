@@ -163,6 +163,16 @@ namespace project_c_sharp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Group_98 {
+            get {
+                object obj = ResourceManager.GetObject("Group 98", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_99 {
             get {
                 object obj = ResourceManager.GetObject("Group 99", resourceCulture);
@@ -196,6 +206,16 @@ namespace project_c_sharp.Properties {
         internal static System.Drawing.Bitmap iconbuttonOne {
             get {
                 object obj = ResourceManager.GetObject("iconbuttonOne", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_back_arrow_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-back-arrow-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

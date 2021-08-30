@@ -73,17 +73,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="admin.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="adminnew.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="admin.Designer.cs">
-      <DependentUpon>admin.cs</DependentUpon>
+    <Compile Include="adminnew.Designer.cs">
+      <DependentUpon>adminnew.cs</DependentUpon>
     </Compile>
     <Compile Include="adminpanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="adminpanel.Designer.cs">
       <DependentUpon>adminpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete.Designer.cs">
+      <DependentUpon>delete.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -135,11 +141,14 @@
     <Compile Include="Vaccine.Designer.cs">
       <DependentUpon>Vaccine.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="admin.resx">
-      <DependentUpon>admin.cs</DependentUpon>
+    <EmbeddedResource Include="adminnew.resx">
+      <DependentUpon>adminnew.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminpanel.resx">
       <DependentUpon>adminpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete.resx">
+      <DependentUpon>delete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -257,6 +266,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Group 99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-arrow-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group 98.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

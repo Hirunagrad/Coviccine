@@ -35,7 +35,9 @@ namespace project_c_sharp
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            delete objone = new delete();
+            objone.Show();
+            this.Hide();
         }
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
