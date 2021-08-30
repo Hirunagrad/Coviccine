@@ -126,5 +126,11 @@ namespace project_c_sharp
             objadmin.Show();
            
         }
+
+        private void iconButton7_Click(object sender, EventArgs e)
+        {
+            doctor objsix = new doctor();
+            objsix.Show();
+        }
     }
 }
