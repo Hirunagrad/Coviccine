@@ -40,9 +40,9 @@ namespace project_c_sharp
 
             if (uname == "doctor" && pass == "doctor")
             {
-                doctor obj = new doctor();
+                doctorpanel obj = new doctorpanel();
                 obj.Show();
-                this.Hide();
+               
             }
         }
 

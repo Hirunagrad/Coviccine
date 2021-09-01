@@ -131,3 +131,7 @@ F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\proj
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.delete.resources
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.adminnew.resources
 F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.doctor.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\obj\Debug\project_c_sharp.doctorpanel.resources
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\BouncyCastle.Crypto.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\itextsharp.dll
+F:\c#\c-sharp-project-final\c-sharp-project-final\project-c-sharp\bin\Debug\itextsharp.xml
