@@ -70,6 +70,7 @@ namespace project_c_sharp
         {
             BaseFont bf = BaseFont.CreateFont(BaseFont.TIMES_ROMAN, BaseFont.CP1252, BaseFont.EMBEDDED);
             PdfPTable pdftable = new PdfPTable(dgw.Columns.Count);
+            PrintDialog printdialog1 = new PrintDialog();
             pdftable.DefaultCell.Padding = 3;
             pdftable.WidthPercentage = 100;
             pdftable.HorizontalAlignment = Element.ALIGN_LEFT;
@@ -93,6 +94,9 @@ namespace project_c_sharp
                 }
             }
 
+
+
+
             var savefiledialoge = new SaveFileDialog();
             savefiledialoge.FileName = filename;
             savefiledialoge.DefaultExt = ".pdf";
@@ -100,10 +104,12 @@ namespace project_c_sharp
             {
                 using (FileStream stream = new FileStream(savefiledialoge.FileName,FileMode.Create))
                 {
+             
                     Document pdfdoc = new Document(PageSize.A4, 10f, 10f, 10f, 0f);
                     PdfWriter.GetInstance(pdfdoc, stream);
                     pdfdoc.Open();
                     pdfdoc.Add(pdftable);
+                    
                     pdfdoc.Close();
                     stream.Close();
                 }
@@ -116,3 +122,5 @@ namespace project_c_sharp
         }
     }
 }
+
+//add something
