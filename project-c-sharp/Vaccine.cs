@@ -51,6 +51,7 @@ namespace project_c_sharp
             String ages = age.Text;
             String batches = batch.Text;
             String dates = date.Text;
+            String vaccinetrue = "false";
 
 
             if(stdid == "")
@@ -91,7 +92,7 @@ namespace project_c_sharp
             else
             {
                 SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\coviccine.mdf;Integrated Security=True;Connect Timeout=30");
-                String query = "INSERT INTO registerdetails Values ('" + stdid + "', '" + names + "', '" + nicn + "' , '" + vaccinesTypes + "', '" + ages + "', '" + batches + "', '" + dates + "' )";
+                String query = "INSERT INTO registerdetails Values ('" + stdid + "', '" + names + "', '" + nicn + "' , '" + vaccinesTypes + "', '" + ages + "', '" + batches + "', '" + dates + "', '"+vaccinetrue+"' )";
                 SqlCommand cmd = new SqlCommand(query, con);
 
                 try
