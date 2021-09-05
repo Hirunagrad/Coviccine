@@ -66,5 +66,11 @@ namespace project_c_sharp
 
           
         }
+
+        private void add_Click(object sender, EventArgs e)
+        {
+            messagesboxses objnew = new messagesboxses();
+            objnew.Show();
+        }
     }
 }

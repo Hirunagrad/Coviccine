@@ -54,7 +54,7 @@ namespace project_c_sharp
             this.empty.AutoSize = true;
             this.empty.Font = new System.Drawing.Font("Nunito", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.empty.ForeColor = System.Drawing.Color.Red;
-            this.empty.Location = new System.Drawing.Point(553, 447);
+            this.empty.Location = new System.Drawing.Point(505, 441);
             this.empty.Name = "empty";
             this.empty.Size = new System.Drawing.Size(0, 26);
             this.empty.TabIndex = 44;
@@ -73,7 +73,7 @@ namespace project_c_sharp
             this.logindoctor.Font = new System.Drawing.Font("Nunito", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logindoctor.ForeColor = System.Drawing.Color.White;
             this.logindoctor.HoverState.Parent = this.logindoctor;
-            this.logindoctor.Location = new System.Drawing.Point(604, 497);
+            this.logindoctor.Location = new System.Drawing.Point(556, 491);
             this.logindoctor.Name = "logindoctor";
             this.logindoctor.ShadowDecoration.Parent = this.logindoctor;
             this.logindoctor.Size = new System.Drawing.Size(201, 54);
@@ -86,7 +86,7 @@ namespace project_c_sharp
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Nunito", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(393, 305);
+            this.label7.Location = new System.Drawing.Point(345, 299);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(144, 38);
@@ -111,7 +111,7 @@ namespace project_c_sharp
             this.username.ForeColor = System.Drawing.Color.Black;
             this.username.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.username.HoverState.Parent = this.username;
-            this.username.Location = new System.Drawing.Point(547, 300);
+            this.username.Location = new System.Drawing.Point(499, 294);
             this.username.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.username.Name = "username";
             this.username.PasswordChar = '\0';
@@ -140,7 +140,7 @@ namespace project_c_sharp
             this.password.ForeColor = System.Drawing.Color.Black;
             this.password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.password.HoverState.Parent = this.password;
-            this.password.Location = new System.Drawing.Point(545, 377);
+            this.password.Location = new System.Drawing.Point(497, 371);
             this.password.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
             this.password.Name = "password";
             this.password.PasswordChar = '*';
@@ -156,7 +156,7 @@ namespace project_c_sharp
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Nunito", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(395, 382);
+            this.label2.Location = new System.Drawing.Point(347, 376);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(145, 38);
@@ -168,7 +168,7 @@ namespace project_c_sharp
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nunito ExtraBold", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(62)))), ((int)(((byte)(134)))));
-            this.label1.Location = new System.Drawing.Point(596, 202);
+            this.label1.Location = new System.Drawing.Point(548, 196);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 46);
             this.label1.TabIndex = 38;

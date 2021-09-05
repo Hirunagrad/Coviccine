@@ -99,7 +99,9 @@ namespace project_c_sharp
                 {
                     con.Open();
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Database connection Sucsessfull!!");
+                   
+                    popup objm = new popup();
+                    objm.Show();
                 }
                 catch (SqlException Ex)
                 {
@@ -208,6 +210,11 @@ namespace project_c_sharp
         }
 
         private void Vaccine_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kryptonDropButton1_Click(object sender, EventArgs e)
         {
 
         }

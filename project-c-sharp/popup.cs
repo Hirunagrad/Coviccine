@@ -27,5 +27,10 @@ namespace project_c_sharp
         {
            
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
