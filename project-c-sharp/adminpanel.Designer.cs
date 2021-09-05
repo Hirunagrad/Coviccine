@@ -114,10 +114,10 @@ namespace project_c_sharp
             this.iconButton1.BackColor = System.Drawing.Color.Transparent;
             this.iconButton1.FlatAppearance.BorderSize = 0;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Plus;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.Envelope;
             this.iconButton1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(218)))), ((int)(((byte)(54)))));
             this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.Location = new System.Drawing.Point(30, 6);
+            this.iconButton1.Location = new System.Drawing.Point(30, 10);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(75, 73);
             this.iconButton1.TabIndex = 15;
@@ -138,12 +138,13 @@ namespace project_c_sharp
             this.add.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add.ForeColor = System.Drawing.Color.White;
             this.add.HoverState.Parent = this.add;
-            this.add.Location = new System.Drawing.Point(13, 89);
+            this.add.Location = new System.Drawing.Point(4, 91);
             this.add.Name = "add";
             this.add.ShadowDecoration.Parent = this.add;
-            this.add.Size = new System.Drawing.Size(102, 45);
+            this.add.Size = new System.Drawing.Size(122, 45);
             this.add.TabIndex = 16;
-            this.add.Text = "Add";
+            this.add.Text = "Message";
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // guna2Panel1
             // 

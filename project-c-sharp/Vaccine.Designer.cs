@@ -43,7 +43,6 @@ namespace project_c_sharp
             this.batch = new Guna.UI2.WinForms.Guna2TextBox();
             this.std_id = new Guna.UI2.WinForms.Guna2TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.vaccinesType = new Guna.UI2.WinForms.Guna2TextBox();
             this.date = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.errorOne = new System.Windows.Forms.Label();
@@ -53,6 +52,7 @@ namespace project_c_sharp
             this.levelFive = new System.Windows.Forms.Label();
             this.levelSix = new System.Windows.Forms.Label();
             this.levelSeven = new System.Windows.Forms.Label();
+            this.vaccinesType = new Guna.UI2.WinForms.Guna2ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -322,35 +322,6 @@ namespace project_c_sharp
             this.label7.TabIndex = 24;
             this.label7.Text = "std id";
             // 
-            // vaccinesType
-            // 
-            this.vaccinesType.BackColor = System.Drawing.Color.White;
-            this.vaccinesType.BorderRadius = 20;
-            this.vaccinesType.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.vaccinesType.DefaultText = "";
-            this.vaccinesType.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.vaccinesType.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.vaccinesType.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.vaccinesType.DisabledState.Parent = this.vaccinesType;
-            this.vaccinesType.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.vaccinesType.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.vaccinesType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.vaccinesType.FocusedState.Parent = this.vaccinesType;
-            this.vaccinesType.Font = new System.Drawing.Font("Nunito", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vaccinesType.ForeColor = System.Drawing.Color.Black;
-            this.vaccinesType.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.vaccinesType.HoverState.Parent = this.vaccinesType;
-            this.vaccinesType.Location = new System.Drawing.Point(254, 356);
-            this.vaccinesType.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
-            this.vaccinesType.Name = "vaccinesType";
-            this.vaccinesType.PasswordChar = '\0';
-            this.vaccinesType.PlaceholderText = "";
-            this.vaccinesType.SelectedText = "";
-            this.vaccinesType.ShadowDecoration.Parent = this.vaccinesType;
-            this.vaccinesType.Size = new System.Drawing.Size(509, 46);
-            this.vaccinesType.TabIndex = 25;
-            this.vaccinesType.TextChanged += new System.EventHandler(this.vaccinesType_TextChanged);
-            // 
             // date
             // 
             this.date.BorderRadius = 19;
@@ -456,11 +427,37 @@ namespace project_c_sharp
             this.levelSeven.TabIndex = 36;
             this.levelSeven.Click += new System.EventHandler(this.levelSeven_Click);
             // 
+            // vaccinesType
+            // 
+            this.vaccinesType.BackColor = System.Drawing.Color.Transparent;
+            this.vaccinesType.BorderRadius = 19;
+            this.vaccinesType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.vaccinesType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.vaccinesType.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.vaccinesType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.vaccinesType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.vaccinesType.FocusedState.Parent = this.vaccinesType;
+            this.vaccinesType.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.vaccinesType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.vaccinesType.HoverState.Parent = this.vaccinesType;
+            this.vaccinesType.ItemHeight = 30;
+            this.vaccinesType.Items.AddRange(new object[] {
+            "sinopharm",
+            "pfizer",
+            "astrazeneca"});
+            this.vaccinesType.ItemsAppearance.Parent = this.vaccinesType;
+            this.vaccinesType.Location = new System.Drawing.Point(254, 363);
+            this.vaccinesType.Name = "vaccinesType";
+            this.vaccinesType.ShadowDecoration.Parent = this.vaccinesType;
+            this.vaccinesType.Size = new System.Drawing.Size(509, 36);
+            this.vaccinesType.TabIndex = 37;
+            // 
             // Vaccine
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.vaccinesType);
             this.Controls.Add(this.levelSeven);
             this.Controls.Add(this.levelSix);
             this.Controls.Add(this.levelFive);
@@ -470,7 +467,6 @@ namespace project_c_sharp
             this.Controls.Add(this.errorOne);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.date);
-            this.Controls.Add(this.vaccinesType);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.std_id);
             this.Controls.Add(this.batch);
@@ -511,7 +507,6 @@ namespace project_c_sharp
         private Guna.UI2.WinForms.Guna2TextBox batch;
         private Guna.UI2.WinForms.Guna2TextBox std_id;
         private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox vaccinesType;
         private Guna.UI2.WinForms.Guna2DateTimePicker date;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label errorOne;
@@ -521,5 +516,6 @@ namespace project_c_sharp
         private System.Windows.Forms.Label levelFive;
         private System.Windows.Forms.Label levelSix;
         private System.Windows.Forms.Label levelSeven;
+        private Guna.UI2.WinForms.Guna2ComboBox vaccinesType;
     }
 }

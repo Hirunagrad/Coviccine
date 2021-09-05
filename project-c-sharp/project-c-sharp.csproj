@@ -133,6 +133,18 @@
     <Compile Include="loadingscreen.Designer.cs">
       <DependentUpon>loadingscreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="messagePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messagePanel.Designer.cs">
+      <DependentUpon>messagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messagesboxses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="messagesboxses.Designer.cs">
+      <DependentUpon>messagesboxses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phone.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -185,6 +197,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="loadingscreen.resx">
       <DependentUpon>loadingscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messagePanel.resx">
+      <DependentUpon>messagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="messagesboxses.resx">
+      <DependentUpon>messagesboxses.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phone.resx">
       <DependentUpon>Phone.cs</DependentUpon>
@@ -296,6 +314,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Group 98.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-01 1%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newone-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newone-01 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-01 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-01 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4-01 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5382690 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-01 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-01.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

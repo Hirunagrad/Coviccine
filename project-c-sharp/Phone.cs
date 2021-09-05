@@ -34,5 +34,33 @@ namespace project_c_sharp
         {
 
         }
+
+        private void submits_Click(object sender, EventArgs e)
+        {
+            String std_id = id.Text;
+            String uname = name.Text;
+            String phoneNumber = pnumber.Text;
+            String messages = message.Text;
+        }
+
+        private void id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void message_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
