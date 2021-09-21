@@ -11,5 +11,5 @@ Doctor can login to the system by entering his username and password. He can ent
 # How to Use
 
 ## 1) install setup
-   ###dowload setup this link
+   ### dowload setup this link
       https://drive.google.com/drive/folders/1SbN_FiYxvZo6F1yjiOoZRcv-hLwjAxPV?usp=sharing
