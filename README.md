@@ -11,5 +11,9 @@ Doctor can login to the system by entering his username and password. He can ent
 # How to Use
 
 ## 1) install setup
-   ### dowload setup this link
+   ### Dowload setup this link
       https://drive.google.com/drive/folders/1SbN_FiYxvZo6F1yjiOoZRcv-hLwjAxPV?usp=sharing
+   
+   ### Add this databse files using with Microsoft SQL Server Database File
+      https://drive.google.com/file/d/1J7p813hMIeTDXlk-ZXPSACZ5xYimn0hh/view?usp=sharing
+   
