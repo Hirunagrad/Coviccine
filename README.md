@@ -8,4 +8,4 @@ Doctor can login to the system by entering his username and password. He can ent
 # Loading screen
 ![loading](https://user-images.githubusercontent.com/64424930/134177831-1467ae21-a814-470e-ae40-b63a8a6b50bf.PNG)
 
-#how to Use
+# How to Use
