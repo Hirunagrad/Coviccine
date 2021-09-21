@@ -4,3 +4,5 @@ There are two login accesses to the system which are Admin login and Doctor logi
 Admin can login to the system by entering his username and password. He can view,update and delete student details by entering student id.Furthermore admins can view the messages sent by students.
 Doctor can login to the system by entering his username and password. He can enter student id and update whether a student is vaccinated or not.
 
+
+![loading](https://user-images.githubusercontent.com/64424930/134177831-1467ae21-a814-470e-ae40-b63a8a6b50bf.PNG)
